@@ -1,82 +1,83 @@
 // LIST
 
 .list {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
   
-  .list li {
-    margin-right: 30px;
-  }
-  .list li:last-child {
-   margin-right: 0px;
-  }
-  
-  .list-item {
-    display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
+.list li {
+  margin-right: 30px;
+}
 
-  .list-item h3 {
-    color: $text-color-black;
-    font-size: 14px;
-    line-height: 1.14;
-    margin-top: 0;
-    margin-bottom: 10;
-    width: 270px;
-    height: 16px;
-   }
+.list li:last-child {
+ margin-right: 0px;
+}
+  
+.list-item {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list-item h3 {
+  color: $text-color-black;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 10;
+  width: 270px;
+  height: 16px;
+}
    
-  .list-item p {
-    color: $text-color-grey;
-    width: 270px;
-    min-height: 75px;
-    font-size: 14px;
-    line-height: 1.71;
-    margin-top: 0;
-    margin-bottom: 0;
-    letter-spacing: 0.03em;
-  }
+.list-item p {
+  color: $text-color-grey;
+  width: 270px;
+  min-height: 75px;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+}
 
-  .list-ett {
-    width: 270px;
-    height: 251px;
-    }
+.list-ett {
+  width: 270px;
+  height: 251px;
+}
     
-  .list-ett::before {
-    display: block;
-    content: '';
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: #F5F4FA;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-  }
+.list-ett::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
 
-  .icon-ant::before {
-    background-image: url(/images/anten.png);
-    background-size: 70px;
-    padding: 25px 100px;
-  }
+.icon-ant::before {
+  background-image: url(/images/anten.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
   
-  .icon-clock::before {
-    background-image: url(/images/clock.png);
-    background-size: 70px;
-    padding: 25px 100px;
-  }
+.icon-clock::before {
+  background-image: url(/images/clock.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
   
-  .icon-dia::before {
-    background-image: url(/images/diagr.png);
-    background-size: 70px;
-    padding: 25px 100px;
-  }
+.icon-dia::before {
+  background-image: url(/images/diagr.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
   
-  .icon-astro::before {
-    background-image: url(/images/astro.png);
-    background-size: 70px;
-    padding: 25px 100px;
-  }
+.icon-astro::before {
+  background-image: url(/images/astro.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
