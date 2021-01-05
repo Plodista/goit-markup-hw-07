@@ -407,7 +407,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Imgheader.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgheader.jpg);
 }
 
 .hero-section {
@@ -501,25 +501,25 @@ h1 {
 }
 
 .icon-ant::before {
-  background-image: url(/images/anten.png);
+  background-image: url(../images/anten.png);
   background-size: 70px;
   padding: 25px 100px;
 }
 
 .icon-clock::before {
-  background-image: url(/images/clock.png);
+  background-image: url(../images/clock.png);
   background-size: 70px;
   padding: 25px 100px;
 }
 
 .icon-dia::before {
-  background-image: url(/images/diagr.png);
+  background-image: url(../images/diagr.png);
   background-size: 70px;
   padding: 25px 100px;
 }
 
 .icon-astro::before {
-  background-image: url(/images/astro.png);
+  background-image: url(../images/astro.png);
   background-size: 70px;
   padding: 25px 100px;
 }
